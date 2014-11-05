@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Screen On Demo</string>
+    <string name="config_description">Tests the WakeLock settings</string>
+    <string name="config_off">Turned Off. Tap to enable</string>
+    <string name="config_on">Turned On. Tap to disable</string>
+</resources>

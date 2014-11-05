@@ -1,0 +1,38 @@
+<!-- <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/gf_padding"
+    android:paddingLeft="@dimen/gf_padding"
+    android:paddingRight="@dimen/gf_padding"
+    android:paddingTop="@dimen/gf_padding"
+    tools:context=".ConfigureActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hi there" />
+
+    <Button
+        android:id="@+id/takephoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:text="Take Photo" />
+
+</RelativeLayout> -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/enabledisable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@drawable/text_green_colorlist"
+        android:text="@string/config_off" />
+
+</LinearLayout>
